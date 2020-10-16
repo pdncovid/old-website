@@ -1,6 +1,7 @@
 #!/bin/bash
 
-arrPages=("about-us" "calendar" "links" "research" "publications" "news" "people" "contact")
+arrPages=("about-us" "calendar" "links" "research" "publications" "news" "people" "join-us" "contact")
+arrPeople=("anuruddhika" "beshan" "gihan" "harshana" "jameel" "jbe" "mevan" "parakrama" "roshan" "rumali" "samath" "suren" "umar" "vijitha" "mallika" "sakunthala")
 
 generatePage(){
     echo $1
@@ -29,46 +30,37 @@ generatePage(){
     cat ./part4.html >> ../$1/index.html
 }
 
+generateIndexPage(){
+	echo "Index.html"
+	rm ../index.html
+	cat ./part0.html > ../index.html
+	cat ./part1.html >> ../index.html
+	echo "<a href=\"./\">Home</a>" >> ../index.html
+	cat ./part2.html >> ../index.html
+
+	echo "<tr><td bgcolor=\"#D2691E\"><a href=\"../\">HOME</a></td></tr>" >> ../index.html
+	for pp in ${arrPages[@]}; do
+	  echo "<tr><td><a href=\"./"$pp"\">"${pp^^}"</a></td></tr>" >> ../index.html
+	done
+
+	cat ./part3.html >> ../index.html
+	cat ./index.html >> ../index.html
+	cat ./part4.html >> ../index.html
+}
 
 
 echo "STARTING...."
 
-rm ../index.html
-cat ./part0.html > ../index.html
-cat ./part1.html >> ../index.html
-echo "<a href=\"./\">Home</a>" >> ../index.html
-cat ./part2.html >> ../index.html
-
-echo "<tr><td bgcolor=\"#D2691E\"><a href=\"../\">HOME</a></td></tr>" >> ../index.html
-for pp in ${arrPages[@]}; do
-  echo "<tr><td><a href=\"./"$pp"\">"${pp^^}"</a></td></tr>" >> ../index.html
-done
 
 
-cat ./part3.html >> ../index.html
-cat ./index.html >> ../index.html
-cat ./part4.html >> ../index.html
-
+generateIndexPage
 
 for p in ${arrPages[@]}; do
   generatePage $p
 done
 
-generatePage "anuruddhika"
-generatePage "beshan"
-generatePage "gihan"
-generatePage "harshana"
-generatePage "jameel"
-generatePage "jbe"
-generatePage "mevan"
-generatePage "parakrama"
-generatePage "roshan"
-generatePage "rumali"
-generatePage "samath"
-generatePage "suren"
-generatePage "umar"
-generatePage "vijitha"
-
-
+for p in ${arrPeople[@]}; do
+  generatePage $p
+done
 
 echo "END....."
