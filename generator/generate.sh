@@ -2,6 +2,7 @@
 
 arrPages=("about-us" "calendar" "links" "research" "publications" "news" "people" "join-us" "contact")
 arrPeople=("anuruddhika" "beshan" "gihan" "harshana" "jameel" "jbe" "mevan" "parakrama" "roshan" "rumali" "samath" "suren" "umar" "vijitha" "mallika" "sakunthala")
+dateTime=$(date '+%d/%m/%Y %H:%M:%S (%:z)');
 
 generatePage(){
     echo $1
@@ -28,6 +29,9 @@ generatePage(){
     cat ./part3.html >> ../$1/index.html
     cat ./$1.html >> ../$1/index.html
     cat ./part4.html >> ../$1/index.html
+    echo "$dateTime" >> ../$1/index.html
+    cat ./part5.html >> ../$1/index.html
+
 }
 
 generateIndexPage(){
@@ -46,6 +50,9 @@ generateIndexPage(){
 	cat ./part3.html >> ../index.html
 	cat ./index.html >> ../index.html
 	cat ./part4.html >> ../index.html
+  echo "$dateTime" >> ../$1/index.html
+  cat ./part5.html >> ../$1/index.html
+
 }
 
 
