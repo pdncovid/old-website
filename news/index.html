@@ -14,13 +14,23 @@
         gtag('config', 'UA-15776498-7');
         </script>
 
+        <script type="text/javascript">
+            function mobileLayout(){
+                    console.log(window.innerWidth);
+                    if(window.innerWidth<800)
+                        document.write("</tr><tr>");
+            }
+        </script>
+
     </head>
-    <body>
+    <body onload="javascript:mobileSwitch()">
         <table width=100%>
             <tr bgcolor="#f4e8d1">
-                <td width=200 align="center">
+                <td width=200 align="center" id="left-crest">
                     <img src="https://covid.eng.pdn.ac.lk/images/crest.png" height="150" width="150">
                 </td>
+                <script type="text/javascript">mobileLayout()</script>    
+                </div>
                 <td align="left">
                     <table>
                         <tr>
@@ -39,7 +49,8 @@
             </tr>
             <tr>
                 <td bgcolor="#f4e8d1" valign="top">
-                    <table width=200><tr><td><a href="../">HOME</a></td></tr>
+                    
+                    <table><tr><td><a href="../">HOME</a></td></tr>
 <tr><td><a href="../about-us">ABOUT-US</a></td></tr>
 <tr><td><a href="../calendar">CALENDAR</a></td></tr>
 <tr><td><a href="../links">LINKS</a></td></tr>
@@ -68,6 +79,7 @@
 
 </table>
 </td>
+<script type="text/javascript">mobileLayout()</script>
 <td style="vertical-align: top;">
 <!-- CONTENT OF THE WEBPAGE -->
 <!-- START --><ul>
@@ -98,6 +110,8 @@
                                 <a href="https://en.wikipedia.org/wiki/Peradeniya">Peradeniya</a> <a href="#">[20400]</a>, <a href="https://en.wikipedia.org/wiki/Sri_Lanka">Sri Lanka</a>.<br>
                             </td>
 
+                            <script type="text/javascript">mobileLayout()</script>
+
                             <td align="right" width=500>
                                 Phone: +94777146979<br>
                                 Fax: +94812385772<br>
@@ -110,7 +124,7 @@
                         </td></tr>
                         <tr><td colspan="2" align="center">
                         	Last updated : 
-15/02/2021 21:46:02 (+05:30)
+21/02/2021 13:10:52 (+05:30)
                         </td></tr>
                     </table>
                 </td>

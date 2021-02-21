@@ -11,13 +11,23 @@
         gtag('config', 'UA-15776498-7');
         </script>
 
+        <script type="text/javascript">
+            function mobileLayout(){
+                    console.log(window.innerWidth);
+                    if(window.innerWidth<800)
+                        document.write("</tr><tr>");
+            }
+        </script>
+
     </head>
-    <body>
+    <body onload="javascript:mobileSwitch()">
         <table width=100%>
             <tr bgcolor="#f4e8d1">
-                <td width=200 align="center">
+                <td width=200 align="center" id="left-crest">
                     <img src="https://covid.eng.pdn.ac.lk/images/crest.png" height="150" width="150">
                 </td>
+                <script type="text/javascript">mobileLayout()</script>    
+                </div>
                 <td align="left">
                     <table>
                         <tr>
