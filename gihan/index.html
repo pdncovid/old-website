@@ -20,6 +20,33 @@
                     if(window.innerWidth<800)
                         document.write("</tr><tr>");
             }
+
+            function expandMenu(){
+                var menuDiv=document.getElementById("menu");
+                menuDiv.style.display="block";
+
+                var expandMenuDiv=document.getElementById("expand-menu");
+                expandMenuDiv.style.display="none";
+
+                var colapseMenuDiv=document.getElementById("collapse-menu");
+                if(window.innerWidth<800){
+                    colapseMenuDiv.style.display="block";
+                }
+                else{
+                    colapseMenuDiv.style.display="none";
+                }
+
+            }
+            function collapseMenu(){
+                var menuDiv=document.getElementById("menu");
+                menuDiv.style.display="none";
+
+                var expandMenuDiv=document.getElementById("expand-menu");
+                expandMenuDiv.style.display="block";
+
+                var colapseMenuDiv=document.getElementById("collapse-menu");
+                colapseMenuDiv.style.display="none";
+            }
         </script>
 
     </head>
@@ -29,8 +56,7 @@
                 <td width=200 align="center" id="left-crest">
                     <img src="https://covid.eng.pdn.ac.lk/images/crest.png" height="150" width="150">
                 </td>
-                <script type="text/javascript">mobileLayout()</script>    
-                </div>
+                <script type="text/javascript">mobileLayout()</script>
                 <td align="left">
                     <table>
                         <tr>
@@ -49,8 +75,23 @@
             </tr>
             <tr>
                 <td bgcolor="#f4e8d1" valign="top">
-                    
-                    <table><tr><td><a href="../">HOME</a></td></tr>
+                    <div id="collapse-menu">
+                    <table width=200>
+                    	<tr><td><hr></td></tr>
+                    	<tr><td><a href="javascript:collapseMenu()"><b>Collapse Menu</b></a></td></tr>
+                    	<tr><td><hr></td></tr>
+                    </table>
+                	</div>
+                    <div id="expand-menu">
+                    <table width=200>
+                    	<tr><td><hr></td></tr>
+                    	<tr><td><a href="javascript:expandMenu()"><b>Expand Menu</b></a></td></tr>
+                    	<tr><td><hr></td></tr>
+                    </table>
+                	</div>
+                    <div id="menu">
+                    <table width=200>
+                    <tr><td><a href="../">HOME</a></td></tr>
 <tr><td><a href="../about-us">ABOUT-US</a></td></tr>
 <tr><td><a href="../calendar">CALENDAR</a></td></tr>
 <tr><td><a href="../links">LINKS</a></td></tr>
@@ -78,6 +119,15 @@
 <tr><td><a href="../dengue/">DENGUE-AI</a></td></tr>
 
 </table>
+</div>
+<script type="text/javascript">
+	if(window.innerWidth<800){
+		collapseMenu();
+	}
+	else{
+		expandMenu();
+	}
+</script>
 </td>
 <script type="text/javascript">mobileLayout()</script>
 <td style="vertical-align: top;">
@@ -123,7 +173,7 @@ Click <a href="https://gihan.me">here</a> if you are not automatically redirecte
                         </td></tr>
                         <tr><td colspan="2" align="center">
                         	Last updated : 
-21/02/2021 13:10:52 (+05:30)
+21/02/2021 18:13:38 (+05:30)
                         </td></tr>
                     </table>
                 </td>
