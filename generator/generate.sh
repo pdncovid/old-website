@@ -1,7 +1,7 @@
 #!/bin/bash
 
 arrPages=("about-us" "calendar" "links" "research" "publications" "news" "people" "join-us" "contact")
-arrPeople=("anuruddhika" "beshan" "gayanthi" "gihan" "harshana" "insaf" "isuru" "janaka" "kaveen" "kavindu" "mevan" "parakrama" "praditha" "rahal" "roshan" "rumali" "samath" "suren" "vijitha" "mallika" "sakunthala" "dilshan" "yasiru")
+arrPeople=("anuruddhika" "beshan" "erandi" "gayanthi" "gihan" "harshana" "insaf" "isuru" "janaka" "kaveen" "kavindu" "mevan" "parakrama" "praditha" "rahal" "roshan" "rumali" "samath" "suren" "vijitha" "mallika" "sakunthala" "dilshan" "yasiru")
 dateTime=$(date '+%d/%m/%Y %H:%M:%S (%:z)');
 
 generatePage(){
