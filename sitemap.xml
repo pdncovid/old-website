@@ -8,193 +8,258 @@
 
 
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/about-us/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/about-us/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/calendar/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/calendar/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/links/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/links/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/research/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/research/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/publications/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/publications/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/news/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/news/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/people/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/people/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/join-us/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/surveys/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/contact/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/join-us/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/dashboard/</loc>
+  <loc>https://covid.eng.pdn.ac.lk/contact/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://covid.eng.pdn.ac.lk/drive/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://covid.eng.pdn.ac.lk/dashboard/</loc>
   <lastmod>2020-12-21T13:36:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/dengue/</loc>
+  <loc>https://covid.eng.pdn.ac.lk/dengue/</loc>
   <lastmod>2020-12-18T11:58:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/jbe/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/survey1/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/samath/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/jbe/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://covid.eng.pdn.ac.lk/vision-draft/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/mallika/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/navodini/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/roshan/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/harshana/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/vijitha/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/yasiru/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/parakrama/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/gayanthi/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/anuruddhika/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/erandi/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/sakunthala/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/docs/2021-inauguration.pdf</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/dilshan/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/umar/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/mevan/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/janaka/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/gihan/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/samath/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/jameel/</loc>
+  <loc>https://covid.eng.pdn.ac.lk/mallika/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://covid.eng.pdn.ac.lk/roshan/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://covid.eng.pdn.ac.lk/vijitha/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://covid.eng.pdn.ac.lk/parakrama/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://covid.eng.pdn.ac.lk/anuruddhika/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://covid.eng.pdn.ac.lk/sakunthala/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://covid.eng.pdn.ac.lk/dilshan/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://covid.eng.pdn.ac.lk/jameel/</loc>
   <lastmod>2020-12-31T18:46:42+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/umar/</loc>
-  <lastmod>2020-11-22T15:38:14+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/gihan/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/harshana/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/suren/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/suren/</loc>
-  <lastmod>2020-12-14T06:21:23+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/rumali/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/rumali/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://covid.eng.pdn.ac.lk/chathurika/</loc>
+  <loc>https://covid.eng.pdn.ac.lk/chathurika/</loc>
   <lastmod>2020-12-18T11:50:09+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/pipuni/</loc>
+  <loc>https://covid.eng.pdn.ac.lk/pipuni/</loc>
   <lastmod>2020-12-19T08:19:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/sankani/</loc>
+  <loc>https://covid.eng.pdn.ac.lk/sankani/</loc>
   <lastmod>2020-12-18T16:44:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/isuru/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/isuru/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/kaveen/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/kaveen/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/beshan/</loc>
-  <lastmod>2021-01-08T04:33:39+00:00</lastmod>
+  <loc>https://covid.eng.pdn.ac.lk/praditha/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://covid.eng.pdn.ac.lk/jameel/docs/JameelHassan.pdf</loc>
+  <loc>https://covid.eng.pdn.ac.lk/kavindu/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://covid.eng.pdn.ac.lk/insaf/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://covid.eng.pdn.ac.lk/rahal/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://covid.eng.pdn.ac.lk/beshan/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://covid.eng.pdn.ac.lk/mevan/</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://covid.eng.pdn.ac.lk/docs/RA.pdf</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://covid.eng.pdn.ac.lk/docs/SA.pdf</loc>
+  <lastmod>2021-05-30T16:52:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://covid.eng.pdn.ac.lk/jameel/docs/JameelHassan.pdf</loc>
   <lastmod>2020-12-31T18:46:42+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://covid.eng.pdn.ac.lk/umar/zoom/</loc>
-  <lastmod>2020-11-22T15:38:14+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://covid.eng.pdn.ac.lk/suren/data/CV/Suren_CV.pdf</loc>
-  <lastmod>2020-12-14T06:21:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://covid.eng.pdn.ac.lk/suren/data/preprint/2020-sltc-irc-abstract.pdf</loc>
-  <lastmod>2020-12-14T06:21:23+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 
