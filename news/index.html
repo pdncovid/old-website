@@ -59,12 +59,39 @@
 
         </style>
 
+
+        <style type="text/css">
+            @-webkit-keyframes invalid {
+              from { background-color: red; }
+              to { background-color: inherit; }
+            }
+            @-moz-keyframes invalid {
+              from { background-color: red; }
+              to { background-color: inherit; }
+            }
+            @-o-keyframes invalid {
+              from { background-color: red; }
+              to { background-color: inherit; }
+            }
+            @keyframes invalid {
+              from { background-color: red; }
+              to { background-color: inherit; }
+            }
+            .invalid {
+              -webkit-animation: invalid 1s infinite; /* Safari 4+ */
+              -moz-animation:    invalid 1s infinite; /* Fx 5+ */
+              -o-animation:      invalid 1s infinite; /* Opera 12+ */
+              animation:         invalid 1s infinite; /* IE 10+ */
+            }        
+
+        </style>
+
     </head>
     <body onload="javascript:mobileSwitch()">
         <table width=100%>
             <tr bgcolor="#f4e8d1">
                 <td width=200 align="center" id="left-crest">
-                    <img src="https://covid.eng.pdn.ac.lk/images/crest.png" height="150" width="150">
+                    <img src="https://pdncovid.github.io/old-website/images/crest.png" height="150" width="150">
                 </td>
                 <script type="text/javascript">mobileLayout()</script>
                 <td align="left">
@@ -72,6 +99,11 @@
                         <tr>
                             <td align="left">
                                 <h1>University of Peradeniya : COVID Research Group</h1>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="invalid">
+                                <h3>You are on the old website (last updated 25/06/2021).<br>The new website is <a href="https://covid.eng.pdn.ac.lk">https://covid.eng.pdn.ac.lk</a>.</h3>
                             </td>
                         </tr>
                         <tr>
@@ -83,10 +115,10 @@
                             </td>
                             <td width="30%">
                                
-                                <script type="text/javascript">mobileLayout()</script>
+<!--                                 <script type="text/javascript">mobileLayout()</script>
                                 <script async src="https://cse.google.com/cse.js?cx=cf55f9beb6206b938"></script>
                                 Search: 
-                                <div class="gcse-search"></div>
+                                <div class="gcse-search"></div> -->
                                 
                             </td>
                             
@@ -134,13 +166,13 @@
 <tr><td><a href="https://covid.eng.pdn.ac.lk/drive/">DRIVE</a></td></tr>
 <tr><td><a href="https://medium.com/pdncovid/">MEDIUM</a></td></tr>
 <tr><td><a href="https://github.com/pdncovid/">GITHUB</a></td></tr>
-<tr><td><a href="../dashboard/"><b>DASHBOARD</b>(New)</a></td></tr>
-
+<!-- <tr><td><a href="../dashboard/"><b>DASHBOARD</b>(New)</a></td></tr>
+ -->
 <tr><td></td></tr>
 <tr><td><hr></td></tr>
 <tr><td></td></tr>
 
-<tr><td><a href="../dengue/">DENGUE-AI</a></td></tr>
+<!-- <tr><td><a href="../dengue/">DENGUE-AI</a></td></tr> -->
 
 </table>
 </div>
@@ -162,6 +194,8 @@ li:not(:last-child) {
 }
 </style>
 <ul>
+    <li id="2021-06-25"><b>2021/06/25:</b>
+        The research group will move to a new website. The new website will be available on the URL <a href="https://covid.eng.pdn.ac.lk">https://covid.eng.pdn.ac.lk</a>. The old website (this) will be moved to <a href="https://pdncovid.github.io/old-webiste">https://pdncovid.github.io/old-webiste</a>.
     <li id="2021-06-07"><b>2021/06/07:</b>
         We have released a <a href="../survey2/">new survey</a> for undergraduate students in Sri Lankan universities on changes to mobility, food patterns, cultural and socio-political impact of COVID-19. </li>
 
@@ -186,11 +220,11 @@ li:not(:last-child) {
         The research group moved to the new lab space located in the main administration building, Faculty of Engineering, University of Peradeniya. This space will consist of research assistant workspaces, high performance server and a meeting area.
     </li> 
     <li id="2021-03-22"><b>2021/03/22:</b>
-        <a href="https://covid.eng.pdn.ac.lk/navodini">Navodini Wijethilake</a> joined the research group as a research assistant. She will be working on medical applications of AI.
+        <a href="../navodini">Navodini Wijethilake</a> joined the research group as a research assistant. She will be working on medical applications of AI.
     </li>
     <li id="2021-03-01"><b>2021/03/01:</b>
-        Three new research assistants joined the research group. <a href="https://covid.eng.pdn.ac.lk/harshana">Harshana Weligampola</a> and <a href="https://covid.eng.pdn.ac.lk/yasiru">Yasiru Ranasinghe</a> will complementing the ML/AI research thrust of the group. <a href="https://covid.eng.pdn.ac.lk/gayanthi">Gayanthi Anuradha</a> will be initiating the social science aspects of planned work.<br>
-        <a href="https://covid.eng.pdn.ac.lk/erandi">Erandi Attygalla</a> joined the group as the research coordinator.
+        Three new research assistants joined the research group. <a href="../harshana">Harshana Weligampola</a> and <a href="../yasiru">Yasiru Ranasinghe</a> will complementing the ML/AI research thrust of the group. <a href="../gayanthi">Gayanthi Anuradha</a> will be initiating the social science aspects of planned work.<br>
+        <a href="../erandi">Erandi Attygalla</a> joined the group as the research coordinator.
     </li>
 	<li id="2021-02-23"><b>2021/02/23:</b> 
 		Kickoff event for IDRC grant was held at Grand Kandyan, Sri Lanka.<br>
@@ -212,10 +246,10 @@ li:not(:last-child) {
         <!-- </p> -->
 
 	</li>
-	<li id="2020-12-21"><b>2020/12/21:</b> <a href="../dashboard/">Dashboard</a> beta released. Once deployed with fully functionality, this dashboard will faciliate public dissemination of our COVID-19 related predictions through a modern mobile responsive UI.</li>
-    <li id="2020-12-15"><b>2020/12/15:</b> Principal investigator, <a href="https://covid.eng.pdn.ac.lk/jbe/">Prof. Janaka Ekanayake</a> gives a keynote at <a href="https://www.slaas.lk/FITI2020">FITI</a> : From Innovation To Impact 2020, jointly organized by Sri Lanka Association for the Advancement of Science (SLAAS) and Sri Lanka Inventors Commission (SLIC) at <a href="https://www.slaas.lk/program">11:00am</a> on the research going on at the group. [<a href="../research/#jbe">See presentation</a>]</li>
-    <li><b>2020/12/06:</b> <a href="../research/#umar">Video Presentation</a> by <a href="https://covid.eng.pdn.ac.lk/umar">Umar Marikkar</a> about research on predictive algorithms</li>
-    <li><b>2020/10/26:</b> Principal investigator, <a href="https://covid.eng.pdn.ac.lk/jbe/">Prof. Janaka Ekanayake</a> appeared in the list of top 2% researchers around the world from a new <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000918">study</a> published by Ioannidis et. al (Stanford) in PLOS Biology.<br>
+	<li id="2020-12-21"><b>2020/12/21:</b> Dashboard beta released. Once deployed with fully functionality, this dashboard will faciliate public dissemination of our COVID-19 related predictions through a modern mobile responsive UI.</li>
+    <li id="2020-12-15"><b>2020/12/15:</b> Principal investigator, <a href="../jbe/">Prof. Janaka Ekanayake</a> gives a keynote at <a href="https://www.slaas.lk/FITI2020">FITI</a> : From Innovation To Impact 2020, jointly organized by Sri Lanka Association for the Advancement of Science (SLAAS) and Sri Lanka Inventors Commission (SLIC) at <a href="https://www.slaas.lk/program">11:00am</a> on the research going on at the group. [<a href="../research/#jbe">See presentation</a>]</li>
+    <li><b>2020/12/06:</b> <a href="../research/#umar">Video Presentation</a> by <a href="../umar">Umar Marikkar</a> about research on predictive algorithms</li>
+    <li><b>2020/10/26:</b> Principal investigator, <a href="../jbe/">Prof. Janaka Ekanayake</a> appeared in the list of top 2% researchers around the world from a new <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000918">study</a> published by Ioannidis et. al (Stanford) in PLOS Biology.<br>
     	<a href="https://www.pdn.ac.lk/news/02122020b/Top%20Scientist%20Peradeniya_Madhujith_SM_TM.pdf">Read more</a></li>
     <li><b>2020/08/20:</b> Website live.</li>
     <li><b>2020/08/01:</b> The group starts work.</li>
@@ -231,7 +265,7 @@ li:not(:last-child) {
                         <tr>
                             <td align="left" width=500>
                                 <b>Contact</b><br>
-                                <a href="https://covid.eng.pdn.ac.lk/jbe">Prof. Janaka Ekanayake</a>,<br>
+                                Prof. Janaka Ekanayake,<br>
                                 Princial Investigator,<br>
                                 <a href="https://covid.eng.pdn.ac.lk">COVID Research Group</a>,<br>
                                 <a href="https://eng.pdn.ac.lk/">Faculty of Engineering</a>,<br>
@@ -253,7 +287,7 @@ li:not(:last-child) {
                         </td></tr>
                         <tr><td colspan="2" align="center">
                         	Last updated : 
-15/06/2021 13:48:14 (+05:30)
+25/06/2021 23:06:40 (+05:30)
                         </td></tr>
                     </table>
                 </td>

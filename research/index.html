@@ -59,12 +59,39 @@
 
         </style>
 
+
+        <style type="text/css">
+            @-webkit-keyframes invalid {
+              from { background-color: red; }
+              to { background-color: inherit; }
+            }
+            @-moz-keyframes invalid {
+              from { background-color: red; }
+              to { background-color: inherit; }
+            }
+            @-o-keyframes invalid {
+              from { background-color: red; }
+              to { background-color: inherit; }
+            }
+            @keyframes invalid {
+              from { background-color: red; }
+              to { background-color: inherit; }
+            }
+            .invalid {
+              -webkit-animation: invalid 1s infinite; /* Safari 4+ */
+              -moz-animation:    invalid 1s infinite; /* Fx 5+ */
+              -o-animation:      invalid 1s infinite; /* Opera 12+ */
+              animation:         invalid 1s infinite; /* IE 10+ */
+            }        
+
+        </style>
+
     </head>
     <body onload="javascript:mobileSwitch()">
         <table width=100%>
             <tr bgcolor="#f4e8d1">
                 <td width=200 align="center" id="left-crest">
-                    <img src="https://covid.eng.pdn.ac.lk/images/crest.png" height="150" width="150">
+                    <img src="https://pdncovid.github.io/old-website/images/crest.png" height="150" width="150">
                 </td>
                 <script type="text/javascript">mobileLayout()</script>
                 <td align="left">
@@ -72,6 +99,11 @@
                         <tr>
                             <td align="left">
                                 <h1>University of Peradeniya : COVID Research Group</h1>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="invalid">
+                                <h3>You are on the old website (last updated 25/06/2021).<br>The new website is <a href="https://covid.eng.pdn.ac.lk">https://covid.eng.pdn.ac.lk</a>.</h3>
                             </td>
                         </tr>
                         <tr>
@@ -83,10 +115,10 @@
                             </td>
                             <td width="30%">
                                
-                                <script type="text/javascript">mobileLayout()</script>
+<!--                                 <script type="text/javascript">mobileLayout()</script>
                                 <script async src="https://cse.google.com/cse.js?cx=cf55f9beb6206b938"></script>
                                 Search: 
-                                <div class="gcse-search"></div>
+                                <div class="gcse-search"></div> -->
                                 
                             </td>
                             
@@ -134,13 +166,13 @@
 <tr><td><a href="https://covid.eng.pdn.ac.lk/drive/">DRIVE</a></td></tr>
 <tr><td><a href="https://medium.com/pdncovid/">MEDIUM</a></td></tr>
 <tr><td><a href="https://github.com/pdncovid/">GITHUB</a></td></tr>
-<tr><td><a href="../dashboard/"><b>DASHBOARD</b>(New)</a></td></tr>
-
+<!-- <tr><td><a href="../dashboard/"><b>DASHBOARD</b>(New)</a></td></tr>
+ -->
 <tr><td></td></tr>
 <tr><td><hr></td></tr>
 <tr><td></td></tr>
 
-<tr><td><a href="../dengue/">DENGUE-AI</a></td></tr>
+<!-- <tr><td><a href="../dengue/">DENGUE-AI</a></td></tr> -->
 
 </table>
 </div>
@@ -184,7 +216,14 @@
 
         <li>
             <b>Data science for combatting Dengue Pandemic:</b><br>
-            We are developing predictive algorithms to tackle the Dengue outbreaks.
+            Dengue is a mosquito-borne viral infection that has grown rapidly in recent decades. It has become a challenge to health authorities in the country for years. Our intention is to develop an effective mechanism to model and forecast the propagation of the disease with the objective of assisting the prevention, management, and surveillance of the disease.<br>
+            Similar to every infectious disease, Dengue fever also exhibits unique natural characteristics. Analysis of the characteristics and the behavior of disease propagation approaches to forecast the trend in future disease spread. Artificial Intelligence (AI) is capable of identifying the patterns in disease propagation itself and its relationship with several other time variants and time invariant factors to track the trend of the disease.<br>
+            We worked on utilizing AI techniques as a Dengue prediction tool to model and forecast the propagation. This study proposes three AI related models for analyzing the propagation of Dengue fever in Sri Lanka which could be utilized to warn the authorities and the public to take necessary steps to minimize the spread.<br>
+            <ol>
+                <li>Temporal prediction model</li>
+                <li>Spatial prediction model</li>
+                <li>Risk Analysis</li>
+            </ol>
         </li>
         <li>
             <b>Mobile sensing</b><br>
@@ -206,7 +245,7 @@
                         <tr>
                             <td align="left" width=500>
                                 <b>Contact</b><br>
-                                <a href="https://covid.eng.pdn.ac.lk/jbe">Prof. Janaka Ekanayake</a>,<br>
+                                Prof. Janaka Ekanayake,<br>
                                 Princial Investigator,<br>
                                 <a href="https://covid.eng.pdn.ac.lk">COVID Research Group</a>,<br>
                                 <a href="https://eng.pdn.ac.lk/">Faculty of Engineering</a>,<br>
@@ -228,7 +267,7 @@
                         </td></tr>
                         <tr><td colspan="2" align="center">
                         	Last updated : 
-15/06/2021 13:48:14 (+05:30)
+25/06/2021 23:06:40 (+05:30)
                         </td></tr>
                     </table>
                 </td>

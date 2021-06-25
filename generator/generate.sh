@@ -50,7 +50,8 @@ generateIndexPage(){
 	cat ./part3.html >> ../index.html
 	cat ./index.html >> ../index.html
 	cat ./part4.html >> ../index.html
-  echo "$dateTime" >> ../$1/index.html
+  # echo "$dateTime" >> ../$1/index.html
+  echo "25/06/2021" >> ../$1/index.html
   cat ./part5.html >> ../$1/index.html
 
 }
